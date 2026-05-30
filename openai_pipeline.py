@@ -71,7 +71,7 @@ class FullPipeline:
         self.sms_provider = sms_provider
         self.email_provider = email_provider
         self.mailmanage_api_key = mailmanage_api_key
-        self.mailmanage_base_url = mailmanage_base_url or "https://mailmanage.lizaliza.top"
+        self.mailmanage_base_url = mailmanage_base_url or ""
         self.mailmanage_category = mailmanage_category
         self.mailmanage_keyword = mailmanage_keyword
         self.icloud_cookies = icloud_cookies or {}

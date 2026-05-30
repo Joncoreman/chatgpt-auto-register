@@ -107,7 +107,7 @@ def _run(user_id: int, target_count: int, sse_q: queue.Queue, stop_ev: threading
     reg_config = {
         "service": "dr",
         "country": country,
-        "register": {"password": "jinzhu20070203", "name": "A", "birthdate": "2000-01-01"},
+        "register": {"password": "", "name": "A", "birthdate": "2000-01-01"},
         "proxy": proxy,
         "code_timeout": sms_timeout,
     }
