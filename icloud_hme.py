@@ -595,7 +595,7 @@ class ICloudHME:
             timeout: 总超时秒数
             interval: 轮询间隔
             exclude_codes: 排除的验证码
-            imap_user: iCloud 登录邮箱 (如 yangpang20@icloud.com)
+            imap_user: iCloud 登录邮箱 (如 yourname@icloud.com)
             imap_password: app-specific password
         """
         if imap_user and imap_password:
